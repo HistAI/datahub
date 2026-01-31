@@ -1,0 +1,15 @@
+{
+  "extensionId": "histai-wsi-dataset",
+  "version": "1.0.0",
+  "manifestVersion": 1,
+  "name": "histai-wsi-dataset",
+  "description": "Secure API access to search pathology cases, build research cohorts, and export WSI data with clinical and technical filters.",
+  "skills": [
+    {
+      "id": "cohort_builder",
+      "name": "Cohort Builder",
+      "description": "Search for datapoints, filter datasets (benign/malignant, cancer types), build cohorts, and export WSI data with clinical and technical filters.",
+      "path": "skills/cohort_builder/Skill.md"
+    }
+  ]
+}

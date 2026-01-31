@@ -1,0 +1,13 @@
+{
+    "name": "HistAI Pathology Datahub",
+    "description": "Official HistAI skills for pathology research and whole slide image analysis",
+    "repository": "https://github.com/HistAI/datahub",
+    "skills": [
+        {
+            "id": "cohort_builder",
+            "name": "Cohort Builder",
+            "description": "Search pathology cases by diagnosis, organ, age, and stains. Filter datasets (benign/malignant, cancer types), build research cohorts, and export whole slide images with clinical and technical metadata. Requires active CellDX subscription with 2FA.",
+            "path": "skills/cohort_builder/Skill.md"
+        }
+    ]
+}
