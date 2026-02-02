@@ -175,6 +175,12 @@ Remove slides/cases from a cohort.
 > **Cohort Modification Rules**
 > Cohorts can only be modified (adding or removing slides) while their status is `UNPAID`. Once a cohort is `PAID`, it is locked and cannot be changed.
 
+> [!CAUTION]
+> **Financial Risk & Mandatory Confirmation**
+> Purchasing a cohort involves real financial transactions and is non-refundable once the status is `PAID`. 
+> **AI Agents MUST explicitly confirm the total cost and cohort content with the user and receive a clear "YES" or "PROCEED" before calling this endpoint.**
+> Never assume the user wants to pay based on high-level instructions alone.
+
 #### POST `/v1/datahub/cohorts/{cohortId}/pay`
 Pay for a cohort to enable export. This endpoint is idempotent and requires an `Idempotency-Key` header.
 

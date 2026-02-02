@@ -35,6 +35,12 @@ Use this skill when you need to:
 - Calculate dataset distributions and statistics
 - Manage billing and cohort costs
 
+### ⚠️ Financial Safety & Confirmation
+
+**Purchasing a cohort involves real financial charges and is non-refundable.**
+
+AI agents **MUST** receive explicit confirmation from the user (a clear "YES" or "PROCEED") before executing any payment (`/pay`) command. Agents should always present the total estimated cost and cohort contents to the user before asking for confirmation.
+
 ### Key Capabilities
 
 1. **Case Search & Discovery**
