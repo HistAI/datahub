@@ -1,0 +1,13 @@
+{
+    "name": "cohort-builder",
+    "description": "Search and export pathology cases from HistAI Whole Slide Image Data Hub",
+    "version": "1.0.0",
+    "author": {
+        "name": "HistAI",
+        "email": "sales@hist.ai"
+    },
+    "skills": [
+        "./skills/cohort_builder"
+    ],
+    "homepage": "https://github.com/histai/datahub"
+}
