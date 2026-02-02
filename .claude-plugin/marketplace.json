@@ -16,7 +16,7 @@
                 "name": "HistAI",
                 "email": "sales@hist.ai"
             },
-            "source": "./skills/cohort_builder",
+            "source": ".",
             "category": "research",
             "strict": false
         }
