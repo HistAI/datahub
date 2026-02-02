@@ -7,7 +7,7 @@
         "email": "sales@hist.ai"
     },
     "skills": [
-        "./skills/cohort_builder"
+        "."
     ],
     "homepage": "https://github.com/histai/datahub"
 }
