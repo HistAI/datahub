@@ -32,7 +32,7 @@ This repository is compatible with **Claude Code**, **OpenAI Codex**, and **Gemi
 
 2. **Install the Cohort Builder skill:**
    ```
-   /plugin install cohort-builder@histai/datahub
+   /plugin install cohort-builder@histai-datahub
    ```
 
 3. **Configure your API key:**
