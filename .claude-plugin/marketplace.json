@@ -1,17 +1,24 @@
 {
-    "name": "histai-pathology-datahub",
-    "description": "Official HistAI skills for pathology research and whole slide image analysis",
+    "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+    "name": "histai-datahub",
+    "version": "1.0.0",
+    "description": "Skills repository providing clean and secure integration between AI coding agents and the HistAI Whole Slide Image Data Hub",
     "owner": {
         "name": "HistAI",
         "email": "sales@hist.ai"
     },
-    "repository": "https://github.com/HistAI/datahub",
     "plugins": [
         {
-            "id": "cohort-builder",
             "name": "cohort-builder",
-            "description": "Search pathology cases by diagnosis, organ, age, and stains. Filter datasets (benign/malignant, cancer types), build research cohorts, and export whole slide images with clinical and technical metadata. Requires active CellDX subscription with 2FA.",
-            "path": "skills/cohort_builder/SKILL.md"
+            "version": "1.0.0",
+            "description": "Search pathology cases by diagnosis, organ, age, and stains. Filter datasets, build research cohorts, and export whole slide images with comprehensive metadata.",
+            "author": {
+                "name": "HistAI",
+                "email": "sales@hist.ai"
+            },
+            "source": "./skills/cohort_builder",
+            "category": "research",
+            "strict": false
         }
     ]
 }
