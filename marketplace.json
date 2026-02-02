@@ -10,7 +10,7 @@
     "plugins": [
         {
             "name": "cohort-builder",
-            "source": ".",
+            "source": "./skills/cohort_builder",
             "description": "Search pathology cases by diagnosis, organ, age, and stains. Filter datasets, build research cohorts, and export whole slide images with comprehensive metadata.",
             "version": "1.0.0",
             "strict": false
