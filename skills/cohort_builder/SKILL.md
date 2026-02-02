@@ -1,5 +1,5 @@
 ---
-name: HistAI Pathology Datahub API
+name: cohort-builder
 description: Secure API access to search pathology cases, build research cohorts, and export WSI data with clinical and technical filters
 ---
 
